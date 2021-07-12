@@ -15,6 +15,7 @@
 		C42E68AC2694CFB600933325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42E68AA2694CFB600933325 /* LaunchScreen.storyboard */; };
 		C42E68B72694CFB600933325 /* tableImageSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E68B62694CFB600933325 /* tableImageSyncTests.swift */; };
 		C42E68C22694CFB600933325 /* tableImageSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E68C12694CFB600933325 /* tableImageSyncUITests.swift */; };
+		C42E68D22694D27D00933325 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42E68D12694D27D00933325 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C42E68BD2694CFB600933325 /* tableImageSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableImageSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42E68C12694CFB600933325 /* tableImageSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableImageSyncUITests.swift; sourceTree = "<group>"; };
 		C42E68C32694CFB600933325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42E68D12694D27D00933325 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C42E68A12694CFB500933325 /* SceneDelegate.swift */,
 				C42E68A32694CFB500933325 /* ViewController.swift */,
 				C42E68A52694CFB500933325 /* Main.storyboard */,
+				C42E68D12694D27D00933325 /* ContentViewController.swift */,
 				C42E68A82694CFB600933325 /* Assets.xcassets */,
 				C42E68AA2694CFB600933325 /* LaunchScreen.storyboard */,
 				C42E68AD2694CFB600933325 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42E68D22694D27D00933325 /* ContentViewController.swift in Sources */,
 				C42E68A42694CFB500933325 /* ViewController.swift in Sources */,
 				C42E68A02694CFB500933325 /* AppDelegate.swift in Sources */,
 				C42E68A22694CFB500933325 /* SceneDelegate.swift in Sources */,
@@ -436,7 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = tableImageSync/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.tableImageSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,7 +461,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = tableImageSync/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +471,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Swift.tableImageSync;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
